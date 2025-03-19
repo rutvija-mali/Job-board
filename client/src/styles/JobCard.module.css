@@ -109,7 +109,7 @@
 @media (max-width: 1027px) { 
     .jobCard{
         width: 70%;
-        min-height: 350px;
+        height: 300px;
     }
     .container {
         grid-template-columns: 1fr; 
