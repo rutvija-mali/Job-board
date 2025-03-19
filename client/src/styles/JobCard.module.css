@@ -146,6 +146,12 @@
         margin-top: 0px;
         gap: 1rem;
     }
+    .container {
+        grid-template-columns: 1fr; 
+        margin: 2rem 2rem;
+        align-items: center;
+        padding: 1.7rem 0.5rem;
+    }
     .middleSection p{
         display: grid;
         grid-template-columns: 1fr 1fr;
