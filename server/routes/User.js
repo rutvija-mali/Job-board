@@ -12,7 +12,7 @@ const UserRouter = express.Router()
 UserRouter.post('/register',async(req,res)=>{
    try {
     const {name,email,mobile,password} = req.body;
-    
+
 
     const existingUser = await User.findOne({email:email})
 
@@ -54,7 +54,8 @@ UserRouter.post('/login',errorLogger,async(req,res)=>{
             },process.env.JWT_SECRET,{expiresIn:'3hr'})
             res.cookie('token',token, {
               httpOnly: true,
-              sameSite: 'strict',  
+              secure: true,     // Ensures cookie is only sent over HTTPS
+              sameSite: 'none', // Allows cross-origin cookies     
               maxAge: 3 * 60 * 60 * 1000  
           })
           return  res.status(200).json({message:'User logged in successfully',token:token})
