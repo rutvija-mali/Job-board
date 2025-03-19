@@ -76,7 +76,7 @@ UserRouter.get('/me',authMiddleware,async(req,res)=>{
 UserRouter.post('/logout', async(req,res)=>{
   res.clearCookie('token',{
    httpOnly:true,
-   sameSite:'strict'
+   sameSite:'none'
   })
   res.status(200).json({ message: 'User logged out successfully' });
 })
