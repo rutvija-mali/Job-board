@@ -5,6 +5,7 @@ import JobPage from '../components/common/JobPage'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import Swal from 'sweetalert2'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const JobDetails = () => {
   const {jobId} = useParams()
@@ -13,7 +14,7 @@ const JobDetails = () => {
   useEffect(()=>{
     console.log("job id is "+jobId);
     
-    axios.get(`http://localhost:5000/api/jobs/${jobId}`)
+    axios.get(`${API_BASE_URL}/api/jobs/${jobId}`)
     .then((response)=>{
          console.log("response data");
          console.log(response.data);

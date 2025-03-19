@@ -4,6 +4,7 @@ import Card from '../components/common/card'
 import JobCard from '../components/common/JobCard'
 import axios from 'axios'
 import Swal from 'sweetalert2'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const JobListPage = () => {
   const [jobs,setJobs]= useState([])
@@ -15,7 +16,7 @@ const JobListPage = () => {
 
 const fetchJobs = async ()=>{
     try {
-        const response = await axios.get('http://localhost:5000/api/jobs/',{
+        const response = await axios.get(`${API_BASE_URL}/api/jobs/`,{
           params:{name:searchQuery,skills:selectedSkills.length ? selectedSkills.join(','):undefined,size,offset}
         })
         if(response.status === 200){

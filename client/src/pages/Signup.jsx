@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styles from '../styles/Signup.module.css'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -26,7 +27,7 @@ const Signup = () => {
     e.preventDefault();
     setLoading(true)
     try {
-    const response =  await axios.post('http://localhost:5000/api/users/register',formData)
+    const response =  await axios.post(`${API_BASE_URL}/api/users/register`,formData)
 
         alert('Form submitted successfuly')
         if(response.status === 201){

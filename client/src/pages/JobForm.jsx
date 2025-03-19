@@ -3,7 +3,7 @@ import style from '../styles/Job.module.css'
 import axios from 'axios'
 import Swal from 'sweetalert2';
 import { useNavigate, useParams } from 'react-router-dom';
-import log from '../../../server/middlewares/log';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const JobForm = () => {
     const [formData, setFormdata] = useState({
@@ -26,7 +26,7 @@ const JobForm = () => {
 
 useEffect(()=>{
     if(jobId){
-        axios.get(`http://localhost:5000/api/jobs/${jobId}`)
+        axios.get(`${API_BASE_URL}/api/jobs/${jobId}`)
 
         .then((response)=>{
             console.log(response.data);

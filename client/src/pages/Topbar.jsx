@@ -5,6 +5,7 @@ import { useAuth } from "../AuthProvider";
 import recruiterImg from '../assets/profile.png'
 import axios from "axios";
 import Swal from 'sweetalert2'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const Topbar = () => {
   const navigate =useNavigate()
@@ -12,7 +13,7 @@ const Topbar = () => {
 
   const handleLogout = ()=>{
     try {
-      axios.post('http://localhost:5000/api/users/logout')
+      axios.post(`${API_BASE_URL}/api/users/logout`)
       .then((response)=>{
         if(response.status == 200){
           alert("You logged out successfuly")
