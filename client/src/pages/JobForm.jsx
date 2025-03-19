@@ -56,7 +56,7 @@ const handleSubmit = async (e) => {
         let response;
         
         if (jobId) {
-            response = await axios.put(`http://localhost:5000/api/jobs/${jobId}`, formData);
+            response = await axios.put(`${API_BASE_URL}/api/jobs/${jobId}`, formData);
             if (response.status === 201) {
                 Swal.fire({
                     title: 'Success!',
@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
                
             }
         } else {
-            response = await axios.post("http://localhost:5000/api/jobs/", formData);
+            response = await axios.post(`${API_BASE_URL}/api/jobs/`, formData);
             if (response.status === 201) {
                 Swal.fire({
                     title: 'Success!',
