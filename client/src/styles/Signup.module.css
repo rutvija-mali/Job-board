@@ -1,0 +1,222 @@
+.mainContainer{
+    /* background-color: var(--white); */
+    background-color: black;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+}
+.formContainer{
+    background-color: var(--white);
+    width: 50dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction:column;
+
+   
+}
+.container{
+    margin:2rem 6rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container h1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.container p{
+ margin-top: 0;
+ color: var(--text-secondary);
+}
+.container .errorMessage{
+  color: rgb(209, 30, 30);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+.container input{
+    width: 80%;
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid #C2C2C2;
+    border-radius: 0.3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    padding-left: 1rem;
+}
+.container label{
+    display: flex;
+    gap: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+.container input[type="checkbox"]{
+    width: 1rem;
+    height: 1rem;
+    appearance: none;
+    background-color: #858585;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+   
+}
+.container input[type='checkbox']:checked{
+  position: relative;
+
+}
+
+.container p:last-of-type{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-top: 1rem;
+
+    /* margin-top: 0; */
+}
+.container p:last-of-type a{
+    margin-left: 0.5rem;
+    color: black;
+}
+.container input[type="checkbox"]:checked::after{
+    content:"✔";
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.formContainer form{
+    height: 59%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    margin-top: 1rem;
+}
+.formContainer .loginForm{
+   height: 30%;
+ 
+}
+.formContainer form button{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--white);
+    background-color: var(--accent);
+    border: none;
+    border-radius: 0.3rem;
+    width: 14rem;
+    height:3rem ;
+    cursor: pointer;
+}
+.imgContainer{
+    width: 50dvw;
+    height: 100dvh;
+    display: flex;
+    background: url('../assets/login.png') no-repeat center center;
+    background-size: cover;
+    justify-content: center;
+}   
+
+
+.imgContainer p{
+  margin-top: 2rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: var(--white);
+ 
+
+}
+/* Responsive */
+@media (max-width: 1024px) {
+ .formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .formContainer .loginForm{
+    height: 30%;
+    width: 90%;
+ }
+  .container {
+    width: 90%;
+    justify-content: start;
+    align-items: start;
+    padding-left: 2rem;
+  }
+  .container h1 {
+      font-size: 1.8rem;
+  }
+  .container button {
+    font-size: 1rem;
+    height: 2.8rem;
+    margin-top: 1rem;
+  }
+  .imgContainer p{
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .imgContainer{
+    display:none;
+}
+.formContainer{
+    width: 100%;
+}
+.container {
+    width: 95%;
+    margin: 1rem 3rem;
+}
+
+    
+  
+}
+@media (max-width: 480px) {
+  .imgContainer{
+    display:none;
+  }
+  .formContainer{
+    width: 100%;
+  }
+  .container {
+    width: 95%;
+    margin: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 4rem;
+  }
+  
+  .container h1 {
+      font-size: 1.6rem;
+  }
+
+  .container input {
+      height: 2.3rem;
+  }
+
+  .container button {
+      font-size: 1rem;
+      height: 2.8rem;
+  }
+  .container label{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  
+}

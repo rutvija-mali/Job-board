@@ -1,0 +1,19 @@
+.mainContainer{
+    width: 70%;
+    height: 147px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 23px 2px #0000001A;
+    font-size: 1.7rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    box-sizing: border-box;
+    z-index: 100;
+    background-color: var(--white);
+    position: sticky;
+    top: 90px;
+}

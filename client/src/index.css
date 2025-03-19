@@ -1,0 +1,44 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'DM Sans', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  --white:#FFFFFF;
+  --text-secondary:#525252;
+  --gray:#ADADAD;
+  --accent:#ED5353;
+  --border-color:#C2C2C2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow: visible; /* Ensure no parent is restricting sticky behavior */
+}
+
+
+/* primaary: text: #000000;
+sec text:background: #525252;
+white text: background: #FFFFFF;
+bg gray:background: #858585;
+text accent:#ED5353
+second greay: background: #9C9C9C;
+icon background: #919191;
+background: #999999;
+background: #595959;
+background: #ADADAD;
+#ADADAD
+border-secondary: #E3E3E3
+border-primary: #CECECE
+#C2C2C2
+ */

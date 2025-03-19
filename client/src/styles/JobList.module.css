@@ -1,0 +1,31 @@
+.searchConatainer{
+    margin-top: 10rem;
+    min-height: 180px;
+}
+.paginationContainer{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    gap: 0.8rem;
+    align-items: center;
+}
+.paginationContainer button{
+  background-color: var(--accent);
+  color: var(--white);
+  border: none;
+  border-radius: 3rem;
+  padding: 0.5rem 0.7rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.paginationContainer button:disabled {
+    opacity: 0.5;  /* Make disabled buttons slightly visible */
+    cursor: not-allowed;  /* Show a not-allowed cursor */
+  }

@@ -1,0 +1,306 @@
+POST/api/users/login::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/::1
+GET/::1
+GET/api::1
+GET/api/jobs::1
+GET/api/jobs/::1
+GET/api/jobs/$%7B::1
+GET/api/jobs/$%7B%7D::1
+GET/api/jobs/$%7BjobId%7D::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+[2025-03-16T03:35:05.760Z] CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Jobs"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:62:17
+[2025-03-16T03:35:05.764Z] CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Jobs"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:62:17
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+[2025-03-16T03:40:44.262Z] CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Jobs"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:64:17
+GET/api/jobs/[object%20Object]::1
+[2025-03-16T03:40:44.270Z] CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Jobs"
+    at SchemaObjectId.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (C:\Users\rutvi\OneDrive\Desktop\cuvette-react\job-posting-site\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:64:17
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/[object%20Object]::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/favicon.ico::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+PUT/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+POST/api/users/login::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+PUT/api/jobs/67d541837abc645534bc5f2e::1
+[2025-03-16T09:27:38.497Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+PUT/api/jobs/67d541837abc645534bc5f2e::1
+[2025-03-16T09:30:13.240Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+PUT/api/jobs/67d541837abc645534bc5f2e::1
+[2025-03-16T09:30:43.271Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+PUT/api/jobs/67d541837abc645534bc5f2e::1
+[2025-03-16T09:33:34.259Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+PUT/api/jobs/67d541837abc645534bc5f2e::1
+[2025-03-16T09:35:31.962Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:117:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+PUT/api/jobs/67d541837abc645534bc5f2e::1
+[2025-03-16T09:36:33.332Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+PUT/api/jobs/67d541837abc645534bc5f2e::1
+[2025-03-16T09:37:18.604Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:118:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+POST/api/jobs/::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+POST/api/jobs/::1
+POST/api/jobs/::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+POST/api/jobs/::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d69d97a80d636b83a81b21::1
+GET/api/jobs/67d69d97a80d636b83a81b21::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d69d64a80d636b83a81b1f::1
+GET/api/jobs/67d69d64a80d636b83a81b1f::1
+GET/api/jobs/67d69d64a80d636b83a81b1f::1
+GET/api/jobs/67d69d64a80d636b83a81b1f::1
+PUT/api/jobs/67d69d64a80d636b83a81b1f::1
+[2025-03-16T11:16:19.509Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+PUT/api/jobs/67d69d64a80d636b83a81b1f::1
+[2025-03-16T11:16:51.239Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+PUT/api/jobs/67d69d64a80d636b83a81b1f::1
+[2025-03-16T11:17:28.717Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+GET/api/jobs/67d69d64a80d636b83a81b1f::1
+GET/api/jobs/67d69d64a80d636b83a81b1f::1
+PUT/api/jobs/67d69d64a80d636b83a81b1f::1
+[2025-03-16T11:37:14.219Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+PUT/api/jobs/67d69d64a80d636b83a81b1f::1
+[2025-03-16T11:39:35.493Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:116:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+PUT/api/jobs/67d69d64a80d636b83a81b1f::1
+[2025-03-16T11:41:05.353Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:119:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+GET/api/jobs/67d69d64a80d636b83a81b1f::1
+GET/api/jobs/67d69d64a80d636b83a81b1f::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+POST/api/users/login::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+GET/api/jobs/67d541837abc645534bc5f2e::1
+POST/api/jobs/::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d6bc0face08cc3d0358ac7::1
+GET/api/jobs/67d6bc0face08cc3d0358ac7::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/?size=3&offset=0::1
+GET/api/jobs/67d6bc0face08cc3d0358ac7::1
+GET/api/jobs/67d6bc0face08cc3d0358ac7::1
+PUT/api/jobs/67d6bc0face08cc3d0358ac7::1
+[2025-03-16T11:55:54.624Z] TypeError: Cannot read properties of undefined (reading 'toString')
+    at file:///C:/Users/rutvi/OneDrive/Desktop/cuvette-react/job-posting-site/server/routes/Jobs.js:119:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+PUT/api/jobs/67d6bc0face08cc3d0358ac7::1
+GET/api/jobs/67d6bc0face08cc3d0358ac7::1
+GET/api/jobs/67d6bc0face08cc3d0358ac7::1
+PUT/api/jobs/67d6bc0face08cc3d0358ac7::1

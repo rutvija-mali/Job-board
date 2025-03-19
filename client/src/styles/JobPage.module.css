@@ -1,0 +1,127 @@
+.mainContainer{
+    width: 70%;
+    box-shadow: 0px 2px 35px 1px #0000001A;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+.mainContainer p{
+    margin-bottom: 0;
+}
+.container{
+    padding: 3rem 2rem;
+}
+.mainContainer p span{
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: #999999;
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+}
+.headingContainer{
+  display: flex;
+  margin-top: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+.heading h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.mainContainer p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.mainContainer .locationContainer{
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: var(--accent);
+    margin-left: 0;
+}
+.jobDetails {
+    display: flex;
+    gap: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    color: #595959; /* Light gray text */
+    font-size: 1.1rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.3rem;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    filter: grayscale(100%);
+}
+
+.label {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: #999999;
+    font-size: 1rem;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.value {
+
+    font-weight: 500;
+   color: #595959;
+   font-size: 1.1rem;
+}
+.skills,
+.aboutCompany,
+.additionalInfo,
+.aboutJob{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:#000000 ;
+   
+
+}
+.skills h4,
+.additionalInfo h4,
+.aboutCompany h4,
+.aboutJob h4{
+    margin-bottom: 1.3rem;
+}
+.additionalInfo p,
+.aboutCompany p,
+.aboutJob p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color:#595959 ;
+}
+.skills span{
+    background-color: #FFEEEE;
+    border-radius: 1.3rem;
+    padding: 0.2rem 0.6rem;
+    color: #595959;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.skills p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.backButton{
+    margin-top: 2rem;
+}

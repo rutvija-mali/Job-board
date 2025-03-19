@@ -1,0 +1,168 @@
+.jobCard{
+    width: 70%;
+    height: 136px;
+    margin: 1rem auto;
+    box-shadow: 0px 0px 22px 2px #FF202040;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 97%;
+    height: 85%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  
+}
+.left{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 1.5rem;
+}
+.info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  
+}
+.info img {
+    width: 1rem; /* Adjust icon size */
+    height: 0.9rem;
+    object-fit: contain;
+}
+.info p{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    margin-bottom: 0px;
+}
+
+.middleSection span {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem; /* Space between icon and text */
+    padding: 4px 8px;
+    color: #9C9C9C;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.location img{
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+}
+.left h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.bottom{
+    margin-top: 0px;
+}
+
+.bottom span{
+    display: flex;
+    gap: 0.4rem;
+    color: var(--accent);
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.tags p{
+ display: flex;
+ gap: 0.7rem;
+ box-sizing: border-box;
+}
+.tags .skill{
+    background-color: #FFEEEE;
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 3px;
+    font-family: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+   
+}
+.buttonSection{
+  display: flex;
+  gap: 0.8rem;
+}
+@media (max-width: 1027px) { 
+    .jobCard{
+        width: 70%;
+        height: 290px;
+    }
+    .container {
+        grid-template-columns: 1fr; 
+        margin: 2rem 2rem;
+        align-items: center;
+    }
+    .left{
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        gap: 1.5rem;
+     
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+
+    }
+    .buttonSection{
+        margin-top: 0.6rem;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+}
+@media (max-width: 768px) {
+    .jobCard{
+        width: 85%;
+    }
+    .left{
+        margin-top: 0px;
+        gap: 1rem;
+    }
+    .middleSection p{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+      
+    }
+    .location img{
+        width: 1rem;
+        height: 1rem;
+        object-fit: contain;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .buttonSection{
+        margin-top: 0.6rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

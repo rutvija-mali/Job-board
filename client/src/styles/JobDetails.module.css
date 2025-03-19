@@ -1,0 +1,10 @@
+.mainContainer {
+    width: 100%;
+    min-height: 100vh; /* Use min-height instead of height */
+    padding-top: 130px; /* Adjust this based on Topbar height */
+    padding-top: 130px;
+}
+.heading{
+    overflow-y: auto; 
+   
+}
