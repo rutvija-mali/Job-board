@@ -13,7 +13,7 @@ import { AuthProvider } from './AuthProvider'
 
 const App = () => {
 axios.defaults.withCredentials = true
-console.log("App component is rendering");  
+
   return (
     <div>
        <AuthProvider>

@@ -16,8 +16,10 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors(
   {
-    origin:'https://job-board-inky.vercel.app/',
-    credentials:true
+    origin: ['https://job-board-inky.vercel.app'], // Allow frontend domain
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed request methods
+    allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+    credentials: true
   }
 ))
 app.use(log)

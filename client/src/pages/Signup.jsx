@@ -39,7 +39,7 @@ const Signup = () => {
     } finally{
       setLoading(false)
     }
-    console.log(formData);
+    
     
   }
   return (
