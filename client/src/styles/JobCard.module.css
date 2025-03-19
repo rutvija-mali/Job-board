@@ -15,8 +15,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    padding: 1rem 0.5rem;
-    
+    padding: 1.2rem 0.5rem;
+
 }
 .left{
     display: flex;
@@ -115,6 +115,7 @@
         grid-template-columns: 1fr; 
         margin: 2rem 2rem;
         align-items: center;
+        padding: 1.4rem 0.5rem;
     }
     .left{
         display: flex;
