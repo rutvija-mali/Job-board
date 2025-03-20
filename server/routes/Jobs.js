@@ -32,7 +32,7 @@ JobRouter.get('/', errorLogger, async (req, res) => {
 JobRouter.post('/', authMiddleware, async (req, res) => {
   try {
     const { company, logo, position, salary, jobType, remote, location, description, about, skills, information } = req.body;
-    const jobSkills = skills.split(',').map((skill) => skill.trim());
+    const jobSkills = Array.isArray(skills) ? skills : (skills ? skills.split(",").map(skill => skill.trim()) : []);
     const newJob = new Job({
       company,
       logo,
@@ -124,7 +124,7 @@ JobRouter.put('/:id', authMiddleware, async (req, res) => {
     
     const { company, logo, position, salary, jobType, remote, location, description, about, skills, information } = req.body;
     
-    const jobSkills = skills.split(",").map((skill) => skill.trim());
+    const jobSkills = Array.isArray(skills) ? skills : (skills ? skills.split(",").map(skill => skill.trim()) : []);
     const updatedJob = await Job.findByIdAndUpdate(
       req.params.id,
       {
